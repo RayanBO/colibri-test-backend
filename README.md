@@ -8,6 +8,11 @@ https://early-amber-raja.glitch.me/api/todos
 ## todo
 1. comment builder ts pour avoir le js dan
 
+## db URL
+```
+https://supabase.com/dashboard/project/ddkwrpddlwplhctqrdum
+```
+
 ## Description
 
 Ceci est une API simple pour la gestion d'une liste de tâches, construite avec Express.js et Supabase. Elle permet de créer, lire, mettre à jour et supprimer des tâches.
