@@ -6,7 +6,6 @@ export const getTodos = async (req: Request, res: Response) => {
         .from('todolist')
         .select('*')
         .order('created_at', { ascending: false });
-
     if (error) return res.status(500).json({ error: error.message });
     res.json(data);
 };
@@ -17,7 +16,6 @@ export const createTodo = async (req: Request, res: Response) => {
         .from('todolist')
         .insert({ title, descriptions, isFait, statut })
         .select();
-
     if (error) return res.status(500).json({ error: error.message });
     res.status(201).json(data[0]);
 };
@@ -30,7 +28,6 @@ export const updateTodo = async (req: Request, res: Response) => {
         .update({ title, descriptions, isFait, statut })
         .eq('id', id)
         .select();
-
     if (error) return res.status(500).json({ error: error.message });
     res.json(data[0]);
 };
@@ -41,7 +38,6 @@ export const deleteTodo = async (req: Request, res: Response) => {
         .from('todolist')
         .delete()
         .eq('id', id);
-
     if (error) return res.status(500).json({ error: error.message });
     res.status(204).send();
 };

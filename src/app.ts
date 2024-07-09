@@ -8,7 +8,7 @@ import todoRoutes from './routes/todoRoutes';
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 3000;
 
 export const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_API_KEY!);
 
