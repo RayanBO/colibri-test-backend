@@ -1,13 +1,9 @@
-Bien sûr! Voici un README bien structuré en français :
-
----
-
-# API Liste de Tâches
-
 ## Description
+
 Ceci est une API simple pour la gestion d'une liste de tâches, construite avec Express.js et Supabase. Elle permet de créer, lire, mettre à jour et supprimer des tâches.
 
 ## Table des Matières
+
 - [Installation](#installation)
 - [Utilisation](#utilisation)
 - [Endpoints](#endpoints)
@@ -20,27 +16,27 @@ Ceci est une API simple pour la gestion d'une liste de tâches, construite avec 
 ## Installation
 
 1. Clonez le dépôt
-    ```bash
-    git clone <url-du-depot>
-    cd <nom-du-dossier>
-    ```
+   ```bash
+   git clone <url-du-depot>
+   cd <nom-du-dossier>
+   ```
 2. Installez les dépendances
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 3. Créez un fichier `.env` à la racine du projet et ajoutez vos informations de connexion Supabase
-    ```plaintext
-    SUPABASE_URL=your_supabase_url
-    SUPABASE_API_KEY=your_supabase_api_key
-    PORT=3000
-    ```
+   ```plaintext
+   SUPABASE_URL=your_supabase_url
+   SUPABASE_API_KEY=your_supabase_api_key
+   PORT=3000
+   ```
 
 ## Utilisation
 
 1. Démarrez le serveur
-    ```bash
-    npm start
-    ```
+   ```bash
+   npm start
+   ```
 2. L'API sera disponible sur `http://localhost:3000`
 
 ## Endpoints
