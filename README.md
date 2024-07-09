@@ -1,3 +1,13 @@
+## url deployed 
+```
+https://glitch.com/edit/#!/early-amber-raja?path=package.json%3A6%3A28
+
+https://early-amber-raja.glitch.me/api/todos
+```
+
+## todo
+1. comment builder ts pour avoir le js dan
+
 ## Description
 
 Ceci est une API simple pour la gestion d'une liste de tâches, construite avec Express.js et Supabase. Elle permet de créer, lire, mettre à jour et supprimer des tâches.
